@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "377961112087",
+    "project_id": "users-firebase-project",
+    "storage_bucket": "users-firebase-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377961112087:android:7c0774267716d86ad03252",
+        "android_client_info": {
+          "package_name": "com.example.eshoppingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377961112087-mig8l5egiugga35q4ebadfm2rmae0275.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUkkoaFmbnFWhqK9W8jeKOGSQXIjxkxBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377961112087-mig8l5egiugga35q4ebadfm2rmae0275.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

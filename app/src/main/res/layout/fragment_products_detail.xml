@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="productsDetail"
+            type="com.example.eshoppingapp.models.ProductModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.ProductsDetailFragment"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/detailtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@{productsDetail.title}"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            tools:text="Title" />
+
+        <TextView
+            android:id="@+id/detailprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@{productsDetail.price}"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/detailtitle"
+            app:layout_constraintStart_toStartOf="@+id/detailtitle"
+            app:layout_constraintTop_toBottomOf="@+id/detailtitle"
+            tools:text="Price" />
+
+        <TextView
+            android:id="@+id/detaildesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@{productsDetail.description}"
+            app:layout_constraintEnd_toEndOf="@+id/detailprice"
+            app:layout_constraintStart_toStartOf="@+id/detailprice"
+            app:layout_constraintTop_toBottomOf="@+id/detailprice"
+            tools:text="desc." />
+
+        <Button
+            android:id="@+id/addtochart"
+            style="@style/buttonStyle"
+            android:layout_marginTop="8dp"
+            android:text="Add to Chart"
+            app:layout_constraintEnd_toEndOf="@+id/detaildesc"
+            app:layout_constraintStart_toStartOf="@+id/detaildesc"
+            app:layout_constraintTop_toBottomOf="@+id/detaildesc" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

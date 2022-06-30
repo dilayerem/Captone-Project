@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="buttonStyle">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:backgroundTint">#DB3022</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="clock">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:fontFamily">@font/amiko</item>
+    </style>
+
+    <style name="TitleStyle">
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginTop">105dp</item>
+        <item name="android:fontFamily">@font/cantarell</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/Desktop/e-shopping/app/src/main/res/layout/fragment_main_page.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/User/Desktop/e-shopping/app/src/main/res/layout/fragment_products_basket.xml" value="0.264" />
+        <entry key="..\:/Users/User/Desktop/e-shopping/app/src/main/res/layout/fragment_products_detail.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/User/Desktop/e-shopping/app/src/main/res/layout/products_basket_items.xml" value="0.275" />
+        <entry key="..\:/Users/User/Desktop/e-shopping/app/src/main/res/menu/bottomnavigationmenu.xml" value="0.275" />
+        <entry key="..\:/Users/User/Downloads/E-Shopping_App/EShoppingApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/Downloads/E-Shopping_App/EShoppingApp/app/src/main/res/layout/activity_menu.xml" value="0.264" />
+        <entry key="..\:/Users/User/Downloads/E-Shopping_App/EShoppingApp/app/src/main/res/layout/allitems.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/User/Downloads/E-Shopping_App/EShoppingApp/app/src/main/res/layout/fragment_login.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/User/Downloads/E-Shopping_App/EShoppingApp/app/src/main/res/layout/fragment_main_page.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/User/Downloads/E-Shopping_App/EShoppingApp/app/src/main/res/layout/fragment_products_basket.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/User/Downloads/E-Shopping_App/EShoppingApp/app/src/main/res/layout/fragment_products_detail.xml" value="0.264" />
+        <entry key="..\:/Users/User/Downloads/E-Shopping_App/EShoppingApp/app/src/main/res/layout/fragment_shopping.xml" value="0.264" />
+        <entry key="..\:/Users/User/Downloads/E-Shopping_App/EShoppingApp/app/src/main/res/layout/fragment_signup.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/User/Downloads/E-Shopping_App/EShoppingApp/app/src/main/res/layout/newitems.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/User/Downloads/E-Shopping_App/EShoppingApp/app/src/main/res/layout/products_basket_items.xml" value="0.264" />
+        <entry key="..\:/Users/User/Downloads/E-Shopping_App/EShoppingApp/app/src/main/res/menu/bottomnavigationmenu.xml" value="0.275" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
